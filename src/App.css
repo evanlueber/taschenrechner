@@ -52,6 +52,14 @@ body {
   border: 2px dotted #242424;
 }
 
+@keyframes buttonColorAnimation {
+  100% { background-color: grey; } 
+}
+
+.button:active {
+  animation: buttonColorAnimation 0.1s;
+}
+
 .equals {
   background: #4bd086;
   grid-column: 3/5;
