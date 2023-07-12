@@ -1,4 +1,4 @@
-import React, { createContext } from 'react';
+import React, { createContext, useState } from 'react';
 
 export const CalcContext = createContext();
 const CalcProvider = ({ children }) => {
