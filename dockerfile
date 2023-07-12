@@ -4,7 +4,7 @@ RUN apt-get update && \
     apt-get upgrade -y && \
     apt-get install -y git
 WORKDIR /app
-RUN git clone https://github.com/evanlueber/multimedia_website .
+RUN git clone https://github.com/evanlueber/taschenrechner .
 RUN npm ci
 EXPOSE 3000
 ENTRYPOINT [ "npm", "start" ]
